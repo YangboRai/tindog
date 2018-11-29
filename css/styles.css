@@ -1,0 +1,186 @@
+body{
+ text-align: center;
+}
+
+#title{
+background:#ff4c68;
+color: #ffffff;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: "Montserrat";
+}
+
+
+h3{
+font-family: "Montserrat";
+line-height: 1.5;
+}
+
+p{
+color: #8f8f8f;
+}
+
+
+.big-heading{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+
+.container-fluid{
+padding:3% 15%;
+}
+
+.iphoneImg{
+transform: rotate(25deg);
+width: 60%;
+position: absolute;
+left: 20%;
+}
+
+.navbar{
+padding:0 0 4.5rem 0;
+}
+
+.navbar-brand{
+font-size:2.5rem;
+font-family: 'Ubuntu';
+}
+
+.nav-item{
+padding:0 18px;
+}
+
+.nav-link{
+font-size: 1.2rem;
+font-family: 'Montserrat'
+}
+
+/* Download Buttons */
+
+.download-button{
+margin:5% 3% 5% 0;
+}
+
+#features{
+padding:7% 15%;
+background: #fff;
+position: relative;
+z-index:  1;
+}
+
+.feature-box{
+padding:0 50px;
+}
+
+.icon{
+color:#ef8172;
+margin-bottom: 1rem;
+}
+
+.icon:hover{
+color: #ff4c68;
+}
+
+
+/* testimonials section */
+
+#testimonials{
+color: #fff;
+background: #ef8172;
+}
+
+.test-image{
+width: 10%;
+margin:20px;
+border-radius: 50%;
+}
+
+.testimonial-text{
+font-size: 3rem;
+line-height: 1.5;
+font-weight: 700;
+}
+
+/* press section */
+
+#press{
+background: #ef8172;
+padding-bottom: 3%;
+}
+.press-logos{
+width: 12%;
+margin:20px 20px 50px;
+}
+.carousel-item{
+padding:7% 15%;
+}
+
+
+/* pricing section */
+
+#pricing{
+padding: 150px;
+}
+
+.pricing-column{
+padding:3% 2%;
+}
+
+.price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+#cta{
+background: #ff4c68;
+color: #ffffff;
+padding:7% 15%;
+}
+
+.cta-heading{
+font-family: "Montserrat";
+font-weight: 900;
+line-height: 1.5;
+font-size: 3.5rem;
+}
+
+#footer{
+margin:100px;
+background:#fff;
+}
+
+.social{
+padding: 10px;
+}
+
+@media(max-width:1028px) {
+
+#title{
+text-align: center;
+}
+
+  .iphoneImg{
+position: static;
+transform: rotate(0);
+}
+
+.big-heading{
+font-size: 3rem;
+}
+
+.testimonial-text{
+font-size: 2rem;
+}
+
+#pricing{
+padding: 40px;
+}
+
+}
